@@ -6,18 +6,19 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { SectionsModule } from './sections/sections.module';
 import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
 
 import { AppComponent } from './app.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 import { PresentationModule } from './presentation/presentation.module';
 
 @NgModule({
     declarations: [
         AppComponent,
-        NavbarComponent
+        NavbarComponent,
+        FooterComponent,
     ],
     imports: [
         BrowserAnimationsModule,
@@ -28,7 +29,6 @@ import { PresentationModule } from './presentation/presentation.module';
         PresentationModule,
         SectionsModule,
         ComponentsModule,
-        ExamplesModule
     ],
     providers: [],
     bootstrap: [AppComponent]

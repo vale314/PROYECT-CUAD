@@ -2,7 +2,7 @@
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$sans-serif-family:          'Montserrat', 'Helvetica Neue',  Arial, sans-serif;
+$sans-serif-family:          'Myriad Pro', 'Helvetica Neue', 'Montserrat', Arial, sans-serif;
 
 $none:                       0   !default;
 $border-thin:                1px !default;
@@ -46,7 +46,7 @@ $default-color:              #888888 !default;
 $default-states-color:       lighten($default-color, 6%) !default;
 $default-color-opacity:      rgba(182, 182, 182, .6) !default;
 
-$primary-color:              #f96332 !default;
+$primary-color:              #414895 !default;
 $primary-states-color:       lighten($primary-color, 6%) !default;
 $primary-color-opacity:      rgba(249, 99, 50, .3) !default;
 $primary-color-alert:        rgba(249, 99, 50, .8) !default;
