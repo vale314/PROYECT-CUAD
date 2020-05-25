@@ -11,6 +11,7 @@ import { StoreComponent } from "./store/store.component";
 import { ClanClubComponent } from "./clanclub/clanclub.component";
 
 const routes: Routes = [
+  { path: '',   redirectTo: '/bitstory', pathMatch: 'full' },
   { path: "bitstory", component: PresentationComponent },
   { path: "letsplay", component: ComponentsComponent },
   { path: "share", component: SectionsComponent },
