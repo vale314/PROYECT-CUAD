@@ -27,7 +27,6 @@ h1, .h1 {
 
     small{
         font-weight: $font-weight-bold;
-        text-transform: uppercase;
         opacity: .8;
     }
 }
@@ -63,7 +62,6 @@ h5, .h5 {
 h6, .h6{
     font-size: $font-size-h6;
     font-weight: $font-weight-bold;
-    text-transform: uppercase;
 }
 p{
     line-height: 1.61em;
@@ -158,4 +156,9 @@ p{
             color: $opacity-8;
         }
     }
+}
+
+.through {
+  text-decoration: line-through;
+  font-weight: 300;
 }
